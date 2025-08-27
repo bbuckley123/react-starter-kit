@@ -1,0 +1,25 @@
+{
+  "name": "starter-kit",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "vscode.git"
+      ]
+    }
+  },
+  "runArgs": ["--network=host"],
+  "forwardPorts": [5173],
+  "remoteUser": "node"
+}
