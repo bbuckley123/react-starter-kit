@@ -1,5 +1,5 @@
 export const BlankPage: React.FC = () => {
-    return (
-        <></>
-    )
+  return (
+    <div data-testid="home-page">Home Page</div>
+  );
 }
