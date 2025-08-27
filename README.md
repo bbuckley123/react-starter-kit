@@ -7,7 +7,7 @@ A minimal React and TypeScript project powered by [Vite](https://vitejs.dev/) an
 Click the green **Use this template** button, or run:
 
 ```bash
-gh repo create my-new-project --template=your-username/react-starter-kit
+gh repo create my-new-project --template=bbuckley123/react-starter-kit
 ```
 
 ## Features
