@@ -2,11 +2,17 @@
 
 A minimal React and TypeScript project powered by [Vite](https://vitejs.dev/) and preconfigured with testing and linting.
 
-Use this repository as a starting point for new React applications or as a reference when returning after time away.
+## Starting a New Project
+
+Click the green **Use this template** button, or run:
+
+```bash
+gh repo create my-new-project --template=your-username/react-starter-kit
+```
 
 ## Features
 
-- [React 19](https://react.dev/)
+- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/) with strict settings
 - [Vite](https://vitejs.dev/) for fast development and builds
 - [React Router](https://reactrouter.com/) for client side routing
@@ -57,7 +63,7 @@ make test   # run vitest test suite
 
 ## Node Version
 
-Developed with Node.js v20. Other modern LTS versions may work but are not tested.
+Developed with Node.js v22. Other modern LTS versions may work but are not tested.
 
 ## License
 
